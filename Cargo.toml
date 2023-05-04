@@ -1,0 +1,8 @@
+[package]
+name = "template_fw"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+drivers-tts = { git = "https://github.com/ChaoticOnyx/OnyxBay14.Drivers", package = "tts" }
+drivers-pci = { git = "https://github.com/ChaoticOnyx/OnyxBay14.Drivers", package = "pci" }
