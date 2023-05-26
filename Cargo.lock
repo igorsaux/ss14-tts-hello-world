@@ -5,12 +5,21 @@ version = 3
 [[package]]
 name = "mmio"
 version = "0.1.0"
-source = "git+https://github.com/ChaoticOnyx/OnyxBay14.Drivers#50a67b1359866a4f56054b4d234488dbc76d248b"
+source = "git+https://github.com/ChaoticOnyx/OnyxBay14.Drivers#1a21701d94e3b5c4deec546f23685d31b1931b6e"
+dependencies = [
+ "paste",
+]
+
+[[package]]
+name = "paste"
+version = "1.0.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9f746c4065a8fa3fe23974dd82f15431cc8d40779821001404d10d2e79ca7d79"
 
 [[package]]
 name = "pci"
 version = "0.1.0"
-source = "git+https://github.com/ChaoticOnyx/OnyxBay14.Drivers#50a67b1359866a4f56054b4d234488dbc76d248b"
+source = "git+https://github.com/ChaoticOnyx/OnyxBay14.Drivers#1a21701d94e3b5c4deec546f23685d31b1931b6e"
 dependencies = [
  "mmio",
 ]
@@ -26,7 +35,7 @@ dependencies = [
 [[package]]
 name = "tts"
 version = "0.1.0"
-source = "git+https://github.com/ChaoticOnyx/OnyxBay14.Drivers#50a67b1359866a4f56054b4d234488dbc76d248b"
+source = "git+https://github.com/ChaoticOnyx/OnyxBay14.Drivers#1a21701d94e3b5c4deec546f23685d31b1931b6e"
 dependencies = [
  "pci",
 ]
