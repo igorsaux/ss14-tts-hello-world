@@ -1,7 +1,7 @@
 #![no_std]
 #![no_main]
 
-use pci::Pci;
+use pci::PciBus;
 use tts::Tts;
 
 use riscv_rt::entry;
@@ -14,7 +14,7 @@ fn panic(_info: &core::panic::PanicInfo) -> ! {
 #[entry]
 fn main() -> ! {
     unsafe {
-        let pci = Pci::default();
+        let pci = PciBus::default();
         let mut tts = Tts::from(pci.device(0).unwrap());
 
         tts.flush();

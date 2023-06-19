@@ -4,9 +4,9 @@ version = 3
 
 [[package]]
 name = "aho-corasick"
-version = "1.0.1"
+version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "67fc08ce920c31afb70f013dcce1bfc3a3195de6a228474e45e1f145b36f8d04"
+checksum = "43f6cb1bf222025340178f382c426f13757b2960e89779dfcb319c32542a5a41"
 dependencies = [
  "memchr",
 ]
@@ -58,7 +58,7 @@ checksum = "2dffe52ecf27772e601905b7522cb4ef790d2cc203488bbd0e2fe85fcb74566d"
 [[package]]
 name = "mmio"
 version = "0.1.0"
-source = "git+https://github.com/ChaoticOnyx/OnyxBay14.Drivers#47b45215d89d7b505cd4084c1311ba263b7eed8b"
+source = "git+https://github.com/ChaoticOnyx/OnyxBay14.Drivers#7f323a37696bfe527ac43625b0a273cfedadfdc2"
 dependencies = [
  "paste",
 ]
@@ -87,16 +87,16 @@ checksum = "9f746c4065a8fa3fe23974dd82f15431cc8d40779821001404d10d2e79ca7d79"
 [[package]]
 name = "pci"
 version = "0.1.0"
-source = "git+https://github.com/ChaoticOnyx/OnyxBay14.Drivers#47b45215d89d7b505cd4084c1311ba263b7eed8b"
+source = "git+https://github.com/ChaoticOnyx/OnyxBay14.Drivers#7f323a37696bfe527ac43625b0a273cfedadfdc2"
 dependencies = [
  "mmio",
 ]
 
 [[package]]
 name = "proc-macro2"
-version = "1.0.59"
+version = "1.0.60"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6aeca18b86b413c660b781aa319e4e2648a3e6f9eadc9b47e9038e6fe9f3451b"
+checksum = "dec2b086b7a862cf4de201096214fa870344cf922b2b30c167badb3af3195406"
 dependencies = [
  "unicode-ident",
 ]
@@ -118,9 +118,9 @@ checksum = "bd7a31eed1591dcbc95d92ad7161908e72f4677f8fabf2a32ca49b4237cbf211"
 
 [[package]]
 name = "regex"
-version = "1.8.3"
+version = "1.8.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "81ca098a9821bd52d6b24fd8b10bd081f47d39c22778cafaa75a2857a62c6390"
+checksum = "d0ab3ca65655bb1e41f2a8c8cd662eb4fb035e67c3f78da1d61dffe89d07300f"
 dependencies = [
  "aho-corasick",
  "memchr",
@@ -191,7 +191,7 @@ dependencies = [
 [[package]]
 name = "tts"
 version = "0.1.0"
-source = "git+https://github.com/ChaoticOnyx/OnyxBay14.Drivers#47b45215d89d7b505cd4084c1311ba263b7eed8b"
+source = "git+https://github.com/ChaoticOnyx/OnyxBay14.Drivers#7f323a37696bfe527ac43625b0a273cfedadfdc2"
 dependencies = [
  "pci",
 ]
